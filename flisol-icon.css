@@ -23,7 +23,8 @@
 [data-icon]:before { content: attr(data-icon); }
 
 [data-icon]:before,
-.fa-flisol:before {
+.fa-flisol:before,
+.fa-flisol-old:before {
   display: inline-block;
   font-family: "flisol-icon";
   font-style: normal;
@@ -38,4 +39,5 @@
   font-smoothing: antialiased;
 }
 
-.fa-flisol:before { content: "\f102"; }
+.fa-flisol:before { content: "\f100"; }
+.fa-flisol-old:before { content: "\f101"; }
